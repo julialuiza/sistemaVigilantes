@@ -1,0 +1,32 @@
+<h5>Cursos <a href="/curso/create" class="btn btn-dark btn-sm float-right">Adicionar +</a></h5>
+
+<div class="bs-docs-section mt-4">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="bs-component">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Sigla</th>
+              <th scope="col">Nome</th>
+              <th scope="col" class="float-right">Opções</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each cursos}}
+            <tr class="table-active">
+              <td>{{sigla}}</td>
+              <td>{{nome}}</td>
+              <td class="options">
+                <a href="/curso/{{id}}"><i class="far fa-eye"></i></a>
+                <a href="/curso/update/{{id}}"><i class="fas fa-pen"></i></a>
+                <a href="/curso/remove/{{id}}"><i class="far fa-trash-alt"></i></a>
+              </td>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
