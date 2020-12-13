@@ -14,3 +14,29 @@ Para configuração do banco de dados, criar um banco de dados utilizando MySQL 
 Em seguida, realizar a migração das tabelas utilizando `npx sequelize db:migrate` e `npx sequelize-cli db:seed:all`.
 
 Para iniciar a aplicação, utilizar `node app.js`.
+
+## Imagens do sistema
+
+<p align="center">
+  <img src="public\imgs\home.png"/>
+</p>
+
+<p align="center">
+  <img src="public\imgs\jogo.png"/>
+</p>
+
+<p align="center">
+  <img src="public\imgs\cursos.png"/>
+</p>
+
+<p align="center">
+  <img src="public\imgs\cursoupdate.png"/>
+</p>
+
+<p align="center">
+  <img src="public\imgs\cursodetalhes.png"/>
+</p>
+
+<p align="center">
+  <img src="public\imgs\sobre.png"/>
+</p>
